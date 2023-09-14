@@ -1,0 +1,252 @@
+/*-----------------------------------------------------------
+        GENERAL STYLING
+-----------------------------------------------------------*/
+
+/* Body */
+body {
+    margin: 0%;
+}
+
+/* Heading 1 Elements*/
+h1 {
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    text-align: right;
+    margin-top: 3%;
+    color: #50A5B1;
+}
+
+/* Heading 2 Elements */
+h2 {
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 45px;
+    color: #F1600D;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Heading 3 Elements */
+h3 {
+    font-family: 'Teko', sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Paragraph Elements */
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+ /* Links */
+ a {
+    color: #1A265A;
+    text-decoration: none;
+ }
+
+ /* On screens 576px and smaller, the images will be 100px tall and centered vertically in the column */
+@media screen and (max-width: 576px) {
+    img {
+        height: 100px;
+        margin-top: 150px;
+    }
+}
+
+/* Styling for footer element */
+footer {
+    padding: 2%;
+    background-color: black;
+    color: gainsboro;
+}
+
+footer p {
+    color: gainsboro;
+    text-align: right;
+}
+
+footer img {
+    float: left;
+    border-radius: 50%;
+}
+
+.legal {
+    color: gainsboro;
+}
+
+.legal a {
+    color: gainsboro;
+}
+
+footer a:hover {
+    color:#F1600D;
+}
+
+/* -----------------------------------------------------------
+    END OF GENERAL STYLING
+------------------------------------------------------------*/
+
+/* Navbar styling */
+.navbar {
+    overflow: hidden;
+    background-color: #737373;
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Navbar hover effects */
+.navbar a:hover {
+    background-color: #262626;
+    color: #50A5B1;
+    font-weight: bold;
+}
+
+/* Navbar Home Button */
+.navbar a.active {
+    background-color: #f1600D;
+}
+ 
+/*-----------------------------------------------------
+    END OF NAVBAR STYLING
+-----------------------------------------------------*/
+
+/*----------------------------------------------------
+    TOP BANNER STYLING
+----------------------------------------------------*/
+.top_banner {
+    background: url("./img/american-flag-banner.jpg") no-repeat;
+    background-size: 100px 100px;
+}
+
+.top_banner h2 {
+    float: right;
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    background-color: #50A5B1;
+    border-radius: 50%;
+    margin-right: auto;
+    z-index: 1;
+}
+
+/*-----------------------------------------------------
+    BANNER IMAGE STYLING
+-----------------------------------------------------*/
+
+/*Formatting for background image */
+#banner {
+    display: block;
+    transform: scaleX(-1);
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    z-index: -1;
+}
+
+/* Text over image */
+.img_text {
+    position:absolute;
+    top: 500px;
+    right: 16px;
+    font-size: 50px;
+    color:#50A5B1;
+}
+
+/*-----------------------------------------------------
+     END OF BANNER IMAGE STYLING
+-----------------------------------------------------*/
+
+/*-----------------------------------------------------
+    FORM STYLING
+-----------------------------------------------------*/
+
+input[type=text] {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 250px;
+    margin-right: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Hover effects for input boxes */
+input[type=text]:hover {
+    box-shadow: 0 0 5px #cccccc;
+}
+
+/* Submit Button */
+input[type=submit] {
+    background-color: #1A265A;
+    color: #FEF6ED;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+/* Hover effects for submit button */
+input[type=submit]:hover {
+    background-color: #2e429e;
+    color: #F1600D;
+    transform: scale(1.1);
+    transition: trnsform 1.5s;
+}
+
+/* Form Element */
+form {
+    border-radius: 5px;
+    background-color: #FEF6ED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form_container {
+    background-color: #595959;
+}
+
+.info {
+    color:#F1600D;
+    text-align: center;
+}
+
